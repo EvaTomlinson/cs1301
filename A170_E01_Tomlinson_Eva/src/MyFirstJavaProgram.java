@@ -11,5 +11,4 @@ public class MyFirstJavaProgram
 	{
 		System.out.println("This is my first Java program!");
 	}
-
 }

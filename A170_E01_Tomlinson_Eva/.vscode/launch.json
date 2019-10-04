@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - MyFirstJavaProgram",
+      "request": "launch",
+      "mainClass": "MyFirstJavaProgram",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - LabSixProblemFour",
+      "request": "launch",
+      "mainClass": "LabSixProblemFour",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - LabSixProblemOne",
+      "request": "launch",
+      "mainClass": "LabSixProblemOne",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - LabSixProblemThree",
+      "request": "launch",
+      "mainClass": "LabSixProblemThree",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - HomeworkFour",
+      "request": "launch",
+      "mainClass": "HomeworkFour",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    }
+  ]
+}
