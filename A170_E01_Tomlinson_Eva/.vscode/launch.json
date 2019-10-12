@@ -2,6 +2,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Firstheadjava",
+      "request": "launch",
+      "mainClass": "Firstheadjava",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - LectureExercise",
+      "request": "launch",
+      "mainClass": "LectureExercise",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - shuffle1",
+      "request": "launch",
+      "mainClass": "shuffle1",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - MyFirstJavaProgram",
       "request": "launch",
       "mainClass": "MyFirstJavaProgram",

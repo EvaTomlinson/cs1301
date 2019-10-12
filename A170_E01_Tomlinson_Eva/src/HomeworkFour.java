@@ -7,12 +7,12 @@
 public class HomeworkFour {
   public static void main(String[] args)
 	{
-    printName();
-    System.out.println("This is my name in a 3-D effect!");
-    printPictureOne();
-    System.out.println("This is my cat Anna!");
-    printPictureTwo();
-    System.out.println("I love JAVA!");
+    // printName();
+    // System.out.println("This is my name in a 3-D effect!");
+    // printPictureOne();
+    // System.out.println("This is my cat Anna!");
+    // printPictureTwo();
+    // System.out.println("I love JAVA!");
   }
   public static void printName() {
     // __  __     ______     __  __     ______     ______    
