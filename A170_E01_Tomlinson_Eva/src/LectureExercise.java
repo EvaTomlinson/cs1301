@@ -8,7 +8,7 @@ public class LectureExercise {
       System.out.println("Hello i =" + i + "and i squared = ");
     }
     System.out.print("Rinal value of i:" + i + "\n") ;
-    Boolean kill = false;
+    // Boolean kill = false;
   }
   
 }
