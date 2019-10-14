@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - NumberGrid",
+      "request": "launch",
+      "mainClass": "NumberGrid",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ICalledyou",
+      "request": "launch",
+      "mainClass": "ICalledyou",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - payroll",
       "request": "launch",
       "mainClass": "payroll",
