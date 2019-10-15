@@ -2,6 +2,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CodeLens (Launch) - Program2",
+      "request": "launch",
+      "mainClass": "Program2",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - PrintSquare",
+      "request": "launch",
+      "mainClass": "PrintSquare",
+      "projectName": "A170_E01_Tomlinson_Eva"
+    },
+    {
+      "type": "java",
       "name": "CodeLens (Launch) - NumberGrid",
       "request": "launch",
       "mainClass": "NumberGrid",
