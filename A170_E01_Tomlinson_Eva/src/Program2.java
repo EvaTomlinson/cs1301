@@ -14,7 +14,7 @@ public class Program2 {
     double average = (number1 + number2 + number3) / 3;
     System.out.println("Your name is: " + studentName);
     System.out.println("Your average grade of three subject is: " + average);
-
+    
     user_input.close();
   }
 }
