@@ -7,7 +7,7 @@ class CumulativeSumLoop {
   public static void cumlSum() {
     Scanner console = new Scanner (System.in);
     int sum = 0;
-    for (int i = 1; i <= 100; i++){
+    for (int i = 1; i <= 4; i++){
       System.out.print("Type a number: ");
       sum += console.nextInt();
     }
