@@ -2,11 +2,7 @@ import java.util.Scanner;
 
 class CumulativeSumLoop {
   public static void main(String[] args){
-    // int sum = 0;
-    // for (int i = 1; i <= 1000; i++) {
-    //   sum = sum + i;
-    // }
-    // System.out.println("The sume is: " + sum);
+    cumlSum();
   }
   public static void cumlSum() {
     Scanner console = new Scanner (System.in);
