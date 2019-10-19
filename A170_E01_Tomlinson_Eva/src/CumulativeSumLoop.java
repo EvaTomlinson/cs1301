@@ -11,7 +11,7 @@ class CumulativeSumLoop {
       System.out.print("Type a number: ");
       sum = sum + console.nextInt();
     }
-    System.out.println("The sume is: " + sum);
+    System.out.println("The sum is: " + sum);
     console.close();
   }
 }
