@@ -1,3 +1,8 @@
+////////////////////////////////////////
+// Kahee (Eva) Tomlinson              //
+// CSC 1301 MW 9:30 am - 10:45 am     //
+// Homework 6                         //
+////////////////////////////////////////
 import java.util.Scanner;
 
 public class GradeReport{
