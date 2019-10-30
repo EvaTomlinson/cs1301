@@ -4,11 +4,11 @@ public class Lab9Assignment {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Please, enter an integer.");
     int n = scanner.nextInt();
-    int result = facotiral(n);
-    System.out.println("The facotiral of " + n + " is " + result);    
+    int result = factorial(n);
+    System.out.println("The factorial of " + n + " is " + result);    
     scanner.close();
   }
-  public static int facotiral(int n) {
+  public static int factorial(int n) {
     int result = 1;
     for (int i = 1; i <= n; i++) {
       result = result * i;
