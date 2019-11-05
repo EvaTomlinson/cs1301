@@ -8,8 +8,8 @@ public class Lab9Assignment2 {
     double sumOfSeries = 0;
     for (double i = 1; i <= integerFromUser; i++) {
       sumOfSeries += 1/i;
-      System.out.println(sumOfSeries);
     }
+    System.out.println(sumOfSeries);
     scanner.close();
   }
 }
