@@ -51,9 +51,11 @@ public class ForLoopPractice {
   }
   public static void Forloop3() {
     for (int row = 1; row <= 5; row++) {
+      // This is spaces in the beginning
       for (int j = 1; j <= 5-row; j++) {
         System.out.print(" ");
       }
+      //This is for starts
       for (int k = 1; k <= row; k++) {
         System.out.print("*");
       }
