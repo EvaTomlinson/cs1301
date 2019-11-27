@@ -11,24 +11,24 @@ public class PrintOutMyArray {
   static Scanner scanner = new Scanner(System.in);
   public static void main(String[] args) {
     
-    int numberOfItems = getNumberOfItems();
-    int[] items =  getTheValueOfAllItems(numberOfItems);
+    int numItems = getNumberOfItems();
+    int[] items =  getTheValueOfAllItems(numItems);
     printValues(items);
     scanner.close();
   }
   
   public static int getNumberOfItems() {
     System.out.println("Enter the number of items: ");
-    int numberOfItems = scanner.nextInt();
+    int numItems = scanner.nextInt();
     scanner.nextLine();
-    return numberOfItems;
+    return numItems;
   }
   
-  public static int[] getTheValueOfAllItems(int numberOfItems) {
+  public static int[] getTheValueOfAllItems(int numItems) {
     System.out.println("Enter the value of all items: ");
     String allItemsString = scanner.nextLine();
     String[] itemsString = allItemsString.split(" ");
-    int[] items = new int[numberOfItems];
+    int[] items = new int[numItems];
     for (int i = 0; i < itemsString.length; i++) {
       items[i] = Integer.parseInt(itemsString[i]);
     }
