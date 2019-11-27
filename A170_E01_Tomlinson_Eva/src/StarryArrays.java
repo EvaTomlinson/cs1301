@@ -1,22 +1,22 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
-// PrintOutMyArray.java                                                                    //
+// StarryArrays.java                                                                       //
 // Name: Kehee (Eva) Tomlinson                                                             //
 // Lab time: 9:00 am Tuesday                                                               //
 // Program description:                                                                    //
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-import java.util.Arrays;
 import java.util.Scanner;
-public class PrintOutMyArray {
+public class StarryArrays {
   static Scanner scanner = new Scanner(System.in);
+
   public static void main(String[] args) {
-    
     int numItems = getNumberOfItems();
-    int[] items =  getTheValueOfAllItems(numItems);
-    printValues(items);
+    int[] userItems =  getTheValueOfAllItems(numItems);
+    printContentsOfTheArray(numItems, userItems);
+
     scanner.close();
+
   }
-  
   public static int getNumberOfItems() {
     System.out.println("Enter the number of items: ");
     int numItems = scanner.nextInt();
@@ -25,7 +25,7 @@ public class PrintOutMyArray {
   }
   
   public static int[] getTheValueOfAllItems(int numItems) {
-    System.out.println("Enter the value of all items: ");
+    System.out.println("Enter the value of all items(separated by space): ");
     String allItemsString = scanner.nextLine();
     String[] itemsString = allItemsString.split(" ");
     int[] items = new int[numItems];
@@ -34,7 +34,16 @@ public class PrintOutMyArray {
     }
     return items;
   }
-  public static void printValues(int[] items) {
-  System.out.println("The values are: " + Arrays.toString(items));
+  public static void printContentsOfTheArray(int numItems, int[] userItems) {
+    for (int index = 0; index < numItems; index++) {
+      String line = "";
+      line += index;
+      line += ": ";
+      for (int i = 0; i < userItems[index]; i++) {
+        line += "*";
+      }
+      line += "(" + userItems[index] + ")";
+      System.out.println(line);
+    }
   }
 }
